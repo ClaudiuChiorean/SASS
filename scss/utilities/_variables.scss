@@ -11,6 +11,14 @@ $malibu         : #51ddfc;
 $color-button-default     : $malibu;
 $color-text-base          : $boulder;
 
+// Font variables 
+
+$font-stack : 'Lato', sans-serif;
+
+// Link styles
+
+$a-decoration: none;
+
 // Breakpoints
 $break-xs: 575px;
 $break-s: 576px;
