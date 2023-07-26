@@ -1,0 +1,12 @@
+// Colors for buttons
+@mixin themes($map){
+    @each $theme, $color in $map {
+      &-#{$theme} {
+        background-color: $color;
+        &:hover {
+                background: lighten($color: $color-button-default, $amount: 15%);
+           }
+      }
+    };
+    
+  }

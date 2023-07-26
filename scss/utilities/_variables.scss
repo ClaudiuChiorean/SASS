@@ -24,3 +24,13 @@ $break-xs: 575px;
 $break-s: 576px;
 $break-m: 768px;
 $break-l: 992px;
+
+// Theme colors
+
+$themes: (
+    'default': $color-button-default,
+    'error'  : #e4757a,
+    'info'   : #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856,
+);

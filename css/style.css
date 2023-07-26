@@ -375,43 +375,38 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  transition-property: background;
-  transition-duration: 0.8s;
+  transition: background 0.8s;
 }
 
-.default {
+.bt-default {
   background-color: #51ddfc;
 }
-.default:hover {
+.bt-default:hover {
   background: #9cecfd;
 }
-
-.error {
+.bt-error {
   background-color: #e4757a;
 }
-.error:hover {
-  background: #f1b5b8;
+.bt-error:hover {
+  background: #9cecfd;
 }
-
-.info {
+.bt-info {
   background-color: #927bc1;
 }
-.info:hover {
-  background: #bdafd9;
+.bt-info:hover {
+  background: #9cecfd;
 }
-
-.success {
+.bt-success {
   background-color: #63cc82;
 }
-.success:hover {
-  background: #9ddfb0;
+.bt-success:hover {
+  background: #9cecfd;
 }
-
-.warning {
+.bt-warning {
   background-color: #fd7856;
 }
-.warning:hover {
-  background: #feb4a2;
+.bt-warning:hover {
+  background: #9cecfd;
 }
 
 /* ============================================= */
