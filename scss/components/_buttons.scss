@@ -12,17 +12,15 @@
   border-radius: 5px;
   transition: background .8s;
   
-  }
-
-.bt {
-  @include themes($themes);
+  
 }
+
 
 //  .default {
 //   background-color: $color-button-default;
-//   &:hover {
-//     background: lighten($color: $color-button-default, $amount: 15%);
-//   }
+  // &:hover {
+  //   background: lighten($color: $color-button-default, $amount: 15%);
+  // }
 // }
 
 // .error {

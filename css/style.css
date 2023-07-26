@@ -4,6 +4,89 @@
 /* ============================================= */
 /* Utilities Imports */
 /* ============================================= */
+.btn.default {
+  background-color: #51ddfc;
+}
+.btn.default:hover {
+  background: #9cecfd;
+}
+
+.btn.error {
+  background-color: #e4757a;
+}
+.btn.error:hover {
+  background: #f1b5b8;
+}
+
+.btn.info {
+  background-color: #927bc1;
+}
+.btn.info:hover {
+  background: #bdafd9;
+}
+
+.btn.success {
+  background-color: #63cc82;
+}
+.btn.success:hover {
+  background: #9ddfb0;
+}
+
+.btn.warning {
+  background-color: #fd7856;
+}
+.btn.warning:hover {
+  background: #feb4a2;
+}
+
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
 /* ============================================= */
 /* Base Imports */
 /* ============================================= */
@@ -378,37 +461,6 @@ a {
   transition: background 0.8s;
 }
 
-.bt-default {
-  background-color: #51ddfc;
-}
-.bt-default:hover {
-  background-color: #9cecfd;
-}
-.bt-error {
-  background-color: #e4757a;
-}
-.bt-error:hover {
-  background-color: #f1b5b8;
-}
-.bt-info {
-  background-color: #927bc1;
-}
-.bt-info:hover {
-  background-color: #bdafd9;
-}
-.bt-success {
-  background-color: #63cc82;
-}
-.bt-success:hover {
-  background-color: #9ddfb0;
-}
-.bt-warning {
-  background-color: #fd7856;
-}
-.bt-warning:hover {
-  background-color: #feb4a2;
-}
-
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
@@ -503,54 +555,6 @@ a {
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
-}
-
-.theme.col-1 {
-  background-color: #927bc1;
-}
-
-.theme.col-2 {
-  background-color: #fd7856;
-}
-
-.theme.col-3 {
-  background-color: #deb2ee;
-}
-
-.theme.col-4 {
-  background-color: #7ee6fd;
-}
-
-.theme.col-5 {
-  background-color: #88d9a0;
-}
-
-.theme.col-6 {
-  background-color: #4da2bb;
-}
-
-.theme.col-7 {
-  background-color: #ec9fa3;
-}
-
-.theme.col-8 {
-  background-color: #fd9f85;
-}
-
-.theme.col-9 {
-  background-color: #e4757a;
-}
-
-.theme.col-10 {
-  background-color: #63cc82;
-}
-
-.theme.col-11 {
-  background-color: #51ddfc;
-}
-
-.theme.col-12 {
-  background-color: #80e8d1;
 }
 
 .card {

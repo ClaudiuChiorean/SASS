@@ -1,19 +1,20 @@
 // Descriptive color variables
-$white          : #fff;
-$black          : #000;
-$boulder        : #777;
-$silver         : #ccc;
-$viking         : #58e1c1;
-$malibu         : #51ddfc;
+$white : #fff;
+$black : #000;
+$boulder : #777;
+$silver : #ccc;
+$viking : #58e1c1;
+$malibu : #51ddfc;
 
 // Functional color variables
 
-$color-button-default     : $malibu;
-$color-text-base          : $boulder;
+$color-button-default : $malibu;
+$color-text-base : $boulder;
 
 // Font variables 
 
-$font-stack : 'Lato', sans-serif;
+$font-stack : 'Lato',
+sans-serif;
 
 // Link styles
 
@@ -27,10 +28,26 @@ $break-l: 992px;
 
 // Theme colors
 
-$themes: (
-    'default': $color-button-default,
-    'error'  : #e4757a,
-    'info'   : #927bc1,
-    'success': #63cc82,
-    'warning': #fd7856,
+$buttons-colors: (
+    default: $color-button-default,
+    error : #e4757a,
+    info : #927bc1,
+    success: #63cc82,
+    warning: #fd7856,
+);
+
+$theme-colors: (
+    col-1: #927bc1,
+    col-2: #fd7856,
+    col-3: #deb2ee,
+    col-4: #7ee6fd,
+    col-5: #88d9a0,
+    col-6: #4da2bb,
+    col-7: #ec9fa3,
+    col-8: #fd9f85,
+    col-9: #e4757a,
+    col-10: #63cc82,
+    col-11: $malibu,
+    col-12: #80e8d1,
+    
 );

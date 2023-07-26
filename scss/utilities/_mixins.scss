@@ -1,12 +1,26 @@
 // Colors for buttons
-@mixin themes($map){
-    @each $theme, $color in $map {
-      &-#{$theme} {
-        background-color: $color;
-        &:hover {
-                background-color: lighten( $color , $amount: 15%);
-           }
-      }
-    };
+
+
+    @each $theme,$color in $buttons-colors {
+       .btn.#{$theme} {
+            background-color: $color;
+            &:hover {
+                background: lighten($color, $amount: 15%);
+              }
+        }
+    }
+
+
+// Colors for Grid theme col
+
+    @each $i, $color in $theme-colors {
+        .theme.#{$i} {
+            background-color: $color;
+        }
+    }
+
     
-  }
+
+
+
+
