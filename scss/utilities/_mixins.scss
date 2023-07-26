@@ -4,7 +4,7 @@
       &-#{$theme} {
         background-color: $color;
         &:hover {
-                background: lighten($color: $color-button-default, $amount: 15%);
+                background-color: lighten( $color , $amount: 15%);
            }
       }
     };

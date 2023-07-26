@@ -382,31 +382,31 @@ a {
   background-color: #51ddfc;
 }
 .bt-default:hover {
-  background: #9cecfd;
+  background-color: #9cecfd;
 }
 .bt-error {
   background-color: #e4757a;
 }
 .bt-error:hover {
-  background: #9cecfd;
+  background-color: #f1b5b8;
 }
 .bt-info {
   background-color: #927bc1;
 }
 .bt-info:hover {
-  background: #9cecfd;
+  background-color: #bdafd9;
 }
 .bt-success {
   background-color: #63cc82;
 }
 .bt-success:hover {
-  background: #9cecfd;
+  background-color: #9ddfb0;
 }
 .bt-warning {
   background-color: #fd7856;
 }
 .bt-warning:hover {
-  background: #9cecfd;
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
