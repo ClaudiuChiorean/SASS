@@ -3,31 +3,51 @@
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: $white;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
-  }
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition-property: background;
+  transition-duration: .8s;
+
   
-  .default {
-    background-color: $color-button-default;
+}
+
+.default {
+  background-color: $color-button-default;
+  &:hover {
+    background: lighten($color: $color-button-default, $amount: 15%);
   }
+}
+
+.error {
+  background-color: #e4757a;
+  &:hover {
+    background: lighten($color:#e4757a, $amount: 15%);
   
-  .error {
-    background-color: #e4757a;
-  }
-  
-  .info {
-    background-color: #927bc1;
-  }
-  
-  .success {
-    background-color: #63cc82;
-  }
-  
-  .warning {
-    background-color: #fd7856;
-  }
+}
+}
+
+.info {
+  background-color: #927bc1;
+  &:hover {
+    background: lighten($color:#927bc1, $amount: 15%);
+}
+}
+
+.success {
+  background-color: #63cc82;
+  &:hover {
+    background: lighten($color:#63cc82, $amount: 15%);
+}
+}
+
+.warning {
+  background-color: #fd7856;
+  &:hover {
+    background: lighten($color:#fd7856, $amount: 15%);
+}
+}
